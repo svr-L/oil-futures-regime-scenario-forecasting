@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+
+# Data / outputs
+data/raw/
+data/processed/
+outputs/
+*.csv
+*.parquet
+
+# OS
+.DS_Store
+Thumbs.db
