@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+.pytest_cache/
+*.egg-info/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data: the parquet cache IS committed on purpose (reproducibility);
+# raw scratch downloads are not.
+data/raw/
+data/processed/
+outputs/
