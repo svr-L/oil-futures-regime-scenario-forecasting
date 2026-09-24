@@ -1,8 +1,0 @@
-numpy>=1.26
-pandas>=2.2
-matplotlib>=3.8
-statsmodels>=0.14
-yfinance>=0.2
-scipy>=1.11
-jupyter>=1.0
-ipykernel>=6.0
