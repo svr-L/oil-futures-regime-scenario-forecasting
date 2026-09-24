@@ -1,0 +1,13 @@
+variable,horizon_weeks,n_models,n_in_mcs_90,best_model,mcs_90_members
+BRENT,1,19,19,CTS_equal,"CTS_equal, CTSF_equal, VARL_equal, CTSF_macro, CTS_macro, FHS_equal, VARL_time, FHS_macro, CTSF_time, FHS_time, CTS_time, VECM_macro, AR_macro, AR_macro_nc, VECM_time, AR_equal, AR_time, VECM_equal, RW_equal"
+BRENT,4,19,19,RW_equal,"RW_equal, FHS_equal, FHS_macro, FHS_time, VECM_macro, CTSF_macro, CTSF_equal, VARL_equal, VECM_equal, CTSF_time, VECM_time, AR_macro, AR_equal, CTS_equal, CTS_macro, VARL_time, AR_macro_nc, AR_time, CTS_time"
+BRENT,12,19,19,VECM_macro,"VECM_macro, VECM_equal, VECM_time, VARL_equal, VARL_time, CTSF_equal, CTSF_macro, CTSF_time, RW_equal, CTS_equal, CTS_macro, FHS_equal, CTS_time, FHS_macro, FHS_time, AR_macro, AR_equal, AR_time, AR_macro_nc"
+BRENT,20,19,19,VECM_equal,"VECM_equal, VECM_time, VECM_macro, VARL_time, VARL_equal, RW_equal, CTSF_time, CTSF_macro, CTSF_equal, CTS_time, CTS_macro, CTS_equal, FHS_equal, AR_equal, FHS_time, AR_macro_nc, FHS_macro, AR_macro, AR_time"
+SPREAD,1,19,16,CTSF_time,"CTSF_time, CTSF_macro, CTSF_equal, CTS_equal, CTS_time, CTS_macro, VARL_time, VARL_equal, VECM_time, VECM_macro, VECM_equal, AR_equal, AR_macro, AR_time, RW_equal, AR_macro_nc"
+SPREAD,4,19,11,CTS_time,"CTS_time, CTS_equal, CTS_macro, CTSF_macro, CTSF_time, CTSF_equal, VARL_equal, VECM_equal, VARL_time, VECM_time, VECM_macro"
+SPREAD,12,19,11,CTS_time,"CTS_time, CTS_equal, CTS_macro, CTSF_time, CTSF_macro, CTSF_equal, VARL_equal, VECM_equal, VECM_time, VARL_time, VECM_macro"
+SPREAD,20,19,11,CTS_equal,"CTS_equal, CTS_macro, CTS_time, VECM_equal, VECM_time, VECM_macro, VARL_equal, VARL_time, CTSF_equal, CTSF_macro, CTSF_time"
+WTI,1,19,19,FHS_equal,"FHS_equal, FHS_macro, FHS_time, CTSF_equal, CTS_equal, VARL_equal, AR_equal, CTSF_time, CTS_time, CTSF_macro, CTS_macro, VARL_time, VECM_equal, AR_macro, AR_macro_nc, VECM_macro, AR_time, RW_equal, VECM_time"
+WTI,4,19,19,FHS_macro,"FHS_macro, FHS_time, FHS_equal, VECM_macro, VECM_time, VARL_equal, VARL_time, VECM_equal, CTS_macro, CTS_time, RW_equal, CTS_equal, CTSF_macro, CTSF_time, CTSF_equal, AR_macro, AR_equal, AR_time, AR_macro_nc"
+WTI,12,19,19,VECM_macro,"VECM_macro, RW_equal, VECM_equal, VECM_time, VARL_equal, VARL_time, FHS_macro, FHS_time, FHS_equal, CTS_macro, CTS_time, CTS_equal, AR_macro, CTSF_macro, AR_equal, CTSF_time, AR_time, CTSF_equal, AR_macro_nc"
+WTI,20,19,19,RW_equal,"RW_equal, VECM_equal, VECM_time, VECM_macro, VARL_equal, VARL_time, FHS_time, FHS_macro, FHS_equal, AR_macro_nc, CTS_macro, CTS_time, CTS_equal, AR_macro, AR_equal, AR_time, CTSF_macro, CTSF_time, CTSF_equal"

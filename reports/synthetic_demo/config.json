@@ -1,0 +1,43 @@
+{
+  "horizons": [
+    1,
+    4,
+    12,
+    20
+  ],
+  "oos_start": "2017-12-29 00:00:00",
+  "stride": 4,
+  "n_sim": 1500,
+  "half_life": 52,
+  "p_max": 3,
+  "coint_rank": 1,
+  "k_ar_diff": 1,
+  "deterministic": "ci",
+  "restrict_trend": true,
+  "var_lags": 1,
+  "min_macro_ess_fraction": 0.35,
+  "models": [
+    "RW_equal",
+    "AR_equal",
+    "AR_time",
+    "AR_macro",
+    "AR_macro_nc",
+    "VECM_equal",
+    "VECM_time",
+    "VECM_macro",
+    "FHS_equal",
+    "FHS_time",
+    "FHS_macro",
+    "CTS_equal",
+    "CTS_time",
+    "CTS_macro",
+    "CTSF_equal",
+    "CTSF_time",
+    "CTSF_macro",
+    "VARL_equal",
+    "VARL_time"
+  ],
+  "seed": 2026,
+  "n_origins_used": 85,
+  "n_origins_dropped": 0
+}
